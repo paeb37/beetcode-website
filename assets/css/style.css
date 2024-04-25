@@ -1,0 +1,149 @@
+/* spacing on all sections */
+.section {
+    margin-top: 4rem;
+    padding-top: 4rem;
+}
+.section:last-of-type {
+    padding-bottom: 4rem;
+}
+
+body {
+    background-color: #202124;
+    color:#F9F6EE;
+}
+
+.image_about {
+    width: 50%;
+}
+
+/* display background color black on navbar scroll */
+.navbarDark {
+    background: #000;
+}
+
+.social-icons {
+    font-size: 36px;
+    cursor: pointer;
+}
+.fa-facebook:hover,
+.fa-instagram:hover,
+.fa-twitter:hover,
+.fa-linkedin:hover, 
+.fa-twitch:hover {
+    color: #fff;
+}
+.fab {
+    color: #000000;
+}
+
+.servicesText.card {
+    height: 280px;
+    cursor: pointer;
+  }
+.servicesIcon {
+    font-size: 36px;
+    text-align: center;
+    width: 100%;
+}
+.card-title {
+    text-align: center;
+}
+.card:hover .servicesIcon {
+    color: #008000;
+}
+.servicesText:hover {
+    border: 1px solid #008000;
+}
+
+.footer {
+    background-color: #808080;
+    text-align: center;
+}
+
+.project-img { /* Make the project images the same size */
+    float: left;
+    width:  100px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.project-img2 { /* Make the project images the same size (for projects page) */
+    float: left;
+    width:  100px;
+    height: 250px;
+    object-fit: cover;
+}
+
+.navbar-nav .nav-link {
+    color: #F9F6EE;
+}
+
+.center-blur {
+    -webkit-backdrop-filter: blur(8px);
+    backdrop-filter: blur(8px);
+    margin: auto;
+}
+
+.center {
+    text-align: center;
+}
+
+.left {
+    text-align: left;
+}
+
+.pad {
+    padding-right: 50px;
+    padding-left: 50px;
+}
+
+hr {
+    color: #F4F4F4;
+    background-color: #F4F4F4;
+    height: 4px;
+}
+
+#awards {
+    background-color: #F4F4F4;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-top: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+    /*text-align: center;*/
+}
+
+.section-title {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.awards-list {
+    list-style: none;
+    padding: 0;
+}
+
+.awards-list li {
+    margin-bottom: 20px;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.award-title {
+    font-size: 1.5em;
+    margin-bottom: 5px;
+    color: #444;
+}
+
+.award-description {
+    font-size: 1em;
+    color: #666;
+}
+
+.award-year {
+    display: block;
+    margin-top: 10px;
+    font-style: italic;
+    color: #888;
+}

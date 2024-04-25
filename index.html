@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Brandon Pae</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  
+  <!-- font CDN -->
+  <script src="https://kit.fontawesome.com/31149d48b0.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="assets/css/style.css"> <!-- Custom stylesheet -->
+  <link rel="icon" href="assets/images/browser_tab_icon.png"> <!-- Browser icon-->
+</head>
+
+<body>
+
+    <!-- Navigation bar-->
+    <nav class="navbar navbar-expand-lg fixed-top navbarScroll"> <!-- can chain classes (have multiple per element) -->
+
+        <!-- This is the button for the hamburger icon (appears when screen collapsed)-->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        
+        <!-- outline the list of website sections and enable collapsing -->
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto center-blur">
+                <li class="nav-item" style="font-size: 18px; margin-right: 40px;">
+                    <a class="nav-link" href="#">Brandon Pae</a> <!-- Home tab -->
+                </li>
+                <li class="nav-item" style="padding-top: 1px">
+                    <a class="nav-link" href="projects.html">Projects</a>
+                </li>
+                <li class="nav-item" style="padding-top: 1px">
+                    <a class="nav-link" href="assets/images/resume.pdf" target="_blank">Resume</a>
+                </li>
+            </ul>
+            
+        </div>
+    </nav>
+    
+    <!-- About section -->
+    <section class="container mt-4 section" id="about"> <!-- use the id to connect to nav bar-->
+        <h1 class="text-center">Hi, I'm Brandon!</h1>
+        
+        <div class="row mt-4"> <!-- new row, 4 spaces of margin on top -->
+            <div class="col-lg-4 mx-auto text-center"> <!-- at large screen sizes, image takes a third of the width -->
+                <img src="assets/images/brandon_circle.png" class="image_about" alt="">
+            </div>
+
+            <div class="col-lg-8 pt-3">
+                <p> I'm a sophomore in Columbia University, studying computer science and entrepreneurship in SEAS.
+                    Currently, I'm making two edTech startups - one is an alternative to when2meet to improve group scheduling for college students,
+                    and the other is focused on guiding students through LeetCode problems.
+
+                    <br>
+                    <br>
+
+                    I love meeting new entrepreneurs and tech enthusiasts to discuss ideas. If you're interested, please contact me via <a style="color:#229fd1;" href = "mailto: btp2109@columbia.edu">email</a>.
+                    
+                    Thank you!
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- services section-->
+    <!-- https://getbootstrap.com/docs/5.2/components/card/#about -->
+
+    <!-- portfolio section-->
+    <section class="section" id="projects">
+        <div class="container mt-3">
+            <h1 class="text-center">Projects & Activities</h1>
+
+            <!-- Current projects -->
+            <div class="row">
+                <div class="col-lg-4 mt-4">
+                    <div class="card">
+                        <img class="card-img-top project-img" src="assets/images/projects_core.png" alt="" style="width:100%">
+                        <div class="card-body">
+                            <h4 class="card-title">CORE</h4>
+                            <h6 class="card-subtitle mb-2 text-muted center">Almaworks Mentorship Lead</h6>
+                            <p class="card-text"> In the <a style="color:#229fd1;" href="https://entrepreneurship.columbia.edu/resource/almaworks/">Almaworks Accelerator</a>, I met with Columbia student founders 
+                                and connected them with industry mentors & VCs. We also organized 3 Demo Day events.</p>
+
+                            <b>Skills learned</b>: Networking, entrepreneurship
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 mt-4">
+                    <div class="card">
+                        <img class="card-img-top project-img" src="assets/images/projects_spec.png" alt="Card image" style="width:100%;object-fit: cover;">
+                        <div class="card-body">
+                            <h4 class="card-title">Columbia Spectator </h4>
+                            <h6 class="card-subtitle mb-2 text-muted center">Head of Product</h6>
+                            <p class="card-text">I manage 3 of Spectator's products: <a style="color:#229fd1;" href="https://culpa.info/#/">CULPA</a>, 
+                                <a style="color:#229fd1;" href="https://theshaft.info/">theSHAFT</a>, and mobile app. 
+                                We interview students, design new features, and work with Engineering to implement them.</p>
+
+                            <b>Skills learned</b>: Product design, management
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 mt-4">
+                    <div class="card">
+                        <img class="card-img-top project-img" src="assets/images/projects_pacbot.jpeg" alt="" style="width:100%">
+                        <div class="card-body">
+                            <h4 class="card-title">Columbia Robotics</h4>
+                            <h6 class="card-subtitle mb-2 text-muted center">Software Member</h6>
+                            <p class="card-text">  
+                                I recently joined the Pacbot team in Columbia Robotics, where I've
+                                fine-tuned the A* pathfinding algorithm and implemented Q-learning for navigation
+                                <br>
+                                <br>
+
+                                <b>Skills learned</b>: Control algorithms, reinforcement learning
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <br> <!-- Break space -->
+            <br> <!-- Break space -->
+            <br> <!-- Break space -->
+            <br> <!-- Break space -->
+            
+            <h1 class="text-center">Past Experience</h1>
+            <!-- Past Projects -->
+            <div class="row d-flex justify-content-center">
+
+                <div class="col-lg-4 mt-4">
+                    <div class="card">
+                        <img class="card-img-top project-img" src="assets/images/projects_capco.png" alt="Card image" style="width:100%">
+                        <div class="card-body">
+                            <h4 class="card-title">Capco</h4>
+                            <h6 class="card-subtitle mb-2 text-muted center">Software Engineering Intern</h6>
+                            <p class="card-text"> 
+                                I improved the code for Commerce Bank's website using their RESTful APIs and SQL. I fixed bugs in the user permissions service and 
+                                automated test data creation using Python. I presented to 30+ senior executives and developers.
+
+                                <br>
+                                <br>
+
+                                I also clustered users for the stock recommendation project and resolved JSON errors for the consent & preference project.
+                                </p>
+
+                                <b>Skills learned</b>: Backend dev, consulting experience
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-lg-4 mt-4">
+                    <div class="card">
+                        <img class="card-img-top project-img" src="assets/images/projects_artaic.png" alt="Card image" style="width:100%">
+                        <div class="card-body">
+                            <h4 class="card-title">Artaic</h4>
+                            <h6 class="card-subtitle mb-2 text-muted center">Software Engineering Intern</h6>
+                            <p class="card-text"> I worked on an image processing project to identify correct tile placement for Artaic's mosaics.
+                                I collected 900 tile images and used them to train a YoloV5 model. The model predictions were 100% correct, with 90% confidence.
+                                
+                                <br>
+                                <br>
+
+                                I also created a map of Artaic's mosaics using the Google Maps API and WP Go Maps.
+                                </p>
+
+                                <b>Skills learned</b>: Image processing, website dev
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 mt-4">
+                    <div class="card">
+                        <img class="card-img-top project-img" src="assets/images/projects_arrow.png" alt="Card image" style="width:100%">
+                        <div class="card-body">
+                            <h4 class="card-title">Arrow Electronics</h4>
+                            <h6 class="card-subtitle mb-2 text-muted center">Machine Learning Intern</h6>
+                            <p class="card-text">I implemented 4 ML models to predict the end life of electronics parts, and presented my results to 20+ Arrow executives and salespeople.
+                                
+                                <br>
+                                <br>
+
+                                I also implemented 8 ML models with AWS to predict the raw material prices for electronics.
+                                </p>
+
+                                <b>Skills learned</b>: Machine learning, AWS
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <br> <!-- Break space -->
+            <br> <!-- Break space -->
+
+            <h1 class="text-center">Other Experience</h1>
+            <br> <!-- Break space -->
+            <h6 class="center">My other projects and hobbies include research, robotics, and teaching. 
+                Visit my <a style="color:#229fd1;" href="projects.html">Projects</a> page to see more!</h6>
+    </section>
+
+    <!-- contact section-->
+    <!-- https://getbootstrap.com/docs/5.2/forms/overview -->
+    
+    <!-- footer section-->
+    <footer class="container-fluid footer" id="footer">
+        <!-- social media icons -->
+        <div class="social-icons mt-4">
+            <a href="https://www.linkedin.com/in/brandon-pae/" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="https://www.instagram.com/brandon.pae/" target="_blank"><i class="fab fa-instagram"></i></a>
+        </div>
+    </footer>
+
+    <!-- load javascript last -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>
