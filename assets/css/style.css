@@ -147,3 +147,33 @@ hr {
     font-style: italic;
     color: #888;
 }
+
+.intro {
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    color: white;
+    position: relative;
+    top: -10px;
+}
+
+.lesson-intro {
+    margin-top: 20px;
+}
+
+.card-border-plus {
+    border: 7px solid #007bff; /* Border properties */
+    border-radius: 20px; /* Rounded corner radius */
+}
+
+.thin-card {
+    max-width: 40%;  /* Adjust the width as necessary */
+    margin: 0 auto !important;  /* Centers the card in the column */
+    padding: 0 !important;
+}
+
+.row .col-md-6 {
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+}
+
